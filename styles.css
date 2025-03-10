@@ -138,18 +138,6 @@ td {
     }
 }
 
-@media (max-width: 480px) {
-    .circuit-content {
-        padding: 10px;
-    }
-
-    th, td {
-        padding: 8px 5px;
-        font-size: 14px;
-    }
-}
-
-/* For medium-sized mobile phones */
 @media (max-width: 375px) {
     .circuit-content {
         padding: 15px;
@@ -164,7 +152,7 @@ td {
     .truth-table {
         padding: 10px;
         margin: 0 -10px;
-        width: calc(100% + 20px);
+        width:100%;
     }
 
     table {
@@ -182,7 +170,6 @@ td {
     }
 }
 
-/* For smaller mobile phones */
 @media (max-width: 320px) {
     .circuit-content {
         padding: 10px;
