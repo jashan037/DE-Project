@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtractor Circuits</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Subtractor Circuits</h1>
+    </header>
+    <main>
+        <div class="circuit" id="half-subtractor">
+            <h2>Half Subtractor</h2>
+            <div class="circuit-content">
+                <div class="circuit-interactive">
+                    <div class="circuit-simulator">
+                        <iframe src="https://circuitverse.org/simulator/embed/half-subtractor-49241a86-efc7-4cf5-9bae-824b88a32a27" 
+                                frameborder="0" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="truth-table">
+                    <h3>Truth Table</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>A</th>
+                                <th>B</th>
+                                <th>Difference</th>
+                                <th>Borrow</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+                            <tr><td>0</td><td>1</td><td>1</td><td>1</td></tr>
+                            <tr><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+                            <tr><td>1</td><td>1</td><td>0</td><td>0</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="circuit" id="full-subtractor">
+            <h2>Full Subtractor</h2>
+            <div class="circuit-content">
+                <div class="circuit-interactive">
+                    <div class="circuit-simulator">
+                        <iframe src="https://circuitverse.org/simulator/embed/full-subtractor-8fe13c6f-80d3-4558-9fc6-8fe17e1e1df7" 
+                                frameborder="0" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="truth-table">
+                    <h3>Truth Table</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>A</th>
+                                <th>B</th>
+                                <th>Bin</th>
+                                <th>Difference</th>
+                                <th>Borrow</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+                            <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td></tr>
+                            <tr><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr>
+                            <tr><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td></tr>
+                            <tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+                            <tr><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+                            <tr><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+                            <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Subtractor Circuits</p>
+    </footer>
+</body>
+</html>
